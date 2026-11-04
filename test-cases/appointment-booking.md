@@ -13,7 +13,7 @@ These cases cover a sample appointment booking flow. They are written as a portf
 - Validation errors explain what needs attention and preserve valid entries.
 - This sample scope does not define payment, account creation, cancellation, or rescheduling.
 
-**Test data**
+## Test data
 
 
 Use a future date with at least two available slots, a valid email such as `qa.sample@example.com`, and a malformed email such as `qa.sample`. Replace these with permitted test data in the target environment.
