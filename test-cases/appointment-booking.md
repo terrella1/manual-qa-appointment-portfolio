@@ -101,7 +101,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass
-**Actual result:**  The booking is not finalized. The email field  
+**Actual result:**  The booking is not created and not success toast message is received. The email field receives a clear validation message.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
@@ -175,7 +175,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass  
-**Actual result:**  All interactive controls are reachable by keyboard. Focus is visible and follows a logical order. Confirmation and validation is available to keyboard users.
+**Actual result:**  All interactive controls are reachable by keyboard. Focus is visible and follows a logical order. Confirmation and validation are available to keyboard users.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
