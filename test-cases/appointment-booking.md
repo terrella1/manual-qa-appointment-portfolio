@@ -165,7 +165,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Priority:** P2 · **Type:** Accessibility / usability · **Status:** Run
 
-**Preconditions:** Booking page is open; keyboard is available.
+**Preconditions:** Booking page is open.
 
 **Steps:**
 1. Use Tab and Shift+Tab to move through controls.
@@ -205,4 +205,4 @@ Copy this table for each execution cycle. Attach screenshots or other evidence u
 
 | Case ID | Build / environment | Result (Pass / Fail / Blocked) | Actual result | Evidence / defect link | Tester | Date |
 | --- | --- | --- | --- | --- | --- | --- |
-| APPT-001 |  | Not run |  |  |  |  |
+| APPT-001 |  |  |  |  |  |  |
