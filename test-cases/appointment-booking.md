@@ -17,18 +17,17 @@ These cases cover a sample appointment booking flow. They are written as a portf
 
 Use a future date with at least two available slots, a valid email such as `qa.sample@example.com`, and a malformed email such as `qa.sample`. Replace these with permitted test data in the target environment.
 
-## Cases
-**Execution:** Pass  
-**Actual result:** Appointment types loaded without error and were visible, understandable, and selectable.  
-**Environment:** Pretend sample page  
-**Date:** November 4, 2026
-
 **Steps:**
 1. Open the booking page.
 2. Review the appointment type choices.
 
 **Expected result:** The page loads without an error. Appointment types are visible, understandable, and selectable.
+## Cases
 
+**Execution:** Pass  
+**Actual result:** Appointment types loaded without error and were visible, understandable, and selectable.  
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
 ### APPT-002 — Show availability for a future date
 
 **Priority:** P1 · **Type:** Functional · **Status:** Not run
@@ -40,6 +39,13 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 2. Choose a future date with known availability.
 
 **Expected result:** Available time slots for that date are displayed. Unavailable times are not presented as selectable.
+
+
+## Cases
+**Execution:** Pass  
+**Actual result:** Available time slots for that date are displayed. Unavailable times are not presented as selectable. 
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
 
 ### APPT-003 — Complete a valid booking
 
