@@ -1,6 +1,6 @@
 # Appointment Booking: Manual Test Cases
 
-### APPT-001 — Test approach
+## Test approach
 
 These cases cover a sample appointment booking flow. They are written as a portfolio exercise and have not been executed against a live application. Adapt the assumptions and record observed results before presenting execution status.
 
@@ -13,7 +13,7 @@ These cases cover a sample appointment booking flow. They are written as a portf
 - Validation errors explain what needs attention and preserve valid entries.
 - This sample scope does not define payment, account creation, cancellation, or rescheduling.
 
-## Test data
+### APPT-001 — Load available appointment types
 
 Use a future date with at least two available slots, a valid email such as `qa.sample@example.com`, and a malformed email such as `qa.sample`. Replace these with permitted test data in the target environment.
 
@@ -30,7 +30,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Date:** November 4, 2026
 ### APPT-002 — Show availability for a future date
 
-**Priority:** P1 · **Type:** Functional · **Status:** Run
+**Priority:** P1 · **Type:** Functional · 
 
 **Preconditions:** At least one future date has availability.
 
@@ -49,7 +49,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-003 — Complete a valid booking
 
-**Priority:** P1 · **Type:** Positive · **Status:** Run
+**Priority:** P1 · **Type:** Positive · 
 
 **Preconditions:** A future slot is available.
 
@@ -68,7 +68,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-004 — Submit with required fields empty
 
-**Priority:** P1 · **Type:** Negative · **Status:** Run
+**Priority:** P1 · **Type:** Negative · 
 
 **Preconditions:** Booking form is open.
 
@@ -80,13 +80,13 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass  
-**Actual result:**  The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
+**Actual result:**  The booking in not completed. Each empty field is identified with a clear message, and an error message help the user find the missing information.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
 ### APPT-005 — Validate malformed email
 
-**Priority:** P1 · **Type:** Negative · **Status:** Run
+**Priority:** P1 · **Type:** Negative · 
 
 **Preconditions:** A future slot is available.
 
@@ -99,13 +99,13 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass
-**Actual result:**  The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
+**Actual result:**  The booking is not finalized. The email field  
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
 ### APPT-006 — Reject a date in the past
 
-**Priority:** P1 · **Type:** Boundary · **Status:** Run
+**Priority:** P1 · **Type:** Boundary · 
 
 **Preconditions:** Booking form is open.
 
@@ -117,13 +117,13 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass  
-**Actual result:**  A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
+**Actual result:**  Only future valid dates can be selected and booked. The user receives a clear explanation and can choose an available date.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
 ### APPT-007 — Prevent booking a slot that became unavailable
 
-**Priority:** P1 · **Type:** Negative / concurrency · **Status:** Run
+**Priority:** P1 · **Type:** Negative / concurrency · 
 
 **Preconditions:** A slot can be made unavailable after it is displayed, for example by booking it in a second session.
 
@@ -142,7 +142,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-008 — Avoid duplicate booking on repeated submit
 
-**Priority:** P1 · **Type:** Reliability · **Status:** Run
+**Priority:** P1 · **Type:** Reliability · 
 
 **Preconditions:** A future slot is available.
 
@@ -179,7 +179,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-010 — Handle temporary availability service failure
 
-**Priority:** P2 · **Type:** Error handling · **Status:** Run
+**Priority:** P2 · **Type:** Error handling · 
 
 **Preconditions:** A test environment can simulate an availability service error or network interruption.
 
@@ -192,7 +192,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass  
-**Actual result:** The page does not show misleading availability as confirmed. An error options is provided and the user can retry.
+**Actual result:** The page does not show misleading availability as confirmed. An error message and retry option are provided.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
