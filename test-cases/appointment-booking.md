@@ -179,7 +179,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-010 — Handle temporary availability service failure
 
-**Priority:** P2 · **Type:** Error handling · **Status:** Not run
+**Priority:** P2 · **Type:** Error handling · **Status:** Run
 
 **Preconditions:** A test environment can simulate an availability service error or network interruption.
 
@@ -189,6 +189,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 3. Observe the page and retry if a retry action is offered.
 
 **Expected result:** The page does not show stale or misleading availability as confirmed. A plain-language error and recovery option are provided, and the user can retry.
+
+## Cases
+**Execution:** Pass  
+**Actual result:**  The page does not show stale or misleading availability as confirmed. A plain-language error and recovery option are provided, and the user can retry.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
 
 ## Execution record template
 
