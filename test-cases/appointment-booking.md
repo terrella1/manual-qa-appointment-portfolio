@@ -160,7 +160,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-009 — Navigate and submit using keyboard only
 
-**Priority:** P2 · **Type:** Accessibility / usability · **Status:** Not run
+**Priority:** P2 · **Type:** Accessibility / usability · **Status:** Run
 
 **Preconditions:** Booking page is open; keyboard is available.
 
@@ -170,6 +170,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 3. Submit without using a mouse.
 
 **Expected result:** All interactive controls are reachable and operable by keyboard. Focus is visible and follows a logical order. Validation and confirmation are available to keyboard users.
+
+## Cases
+**Execution:** Pass  
+**Actual result:**  All interactive controls are reachable and operable by keyboard. Focus is visible and follows a logical order. Validation and confirmation are available to keyboard users.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
 
 ### APPT-010 — Handle temporary availability service failure
 
