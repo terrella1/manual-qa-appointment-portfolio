@@ -15,9 +15,10 @@ These cases cover a sample appointment booking flow. They are written as a portf
 
 **Test data**
 
-### APPT-001 — Load available appointment types
 
 Use a future date with at least two available slots, a valid email such as `qa.sample@example.com`, and a malformed email such as `qa.sample`. Replace these with permitted test data in the target environment.
+
+### APPT-001 — Load available appointment types
 
 **Steps:**
 1. Open the booking page.
@@ -101,7 +102,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass
-**Actual result:**  The booking is not created and not success toast message is received. The email field receives a clear validation message.
+**Actual result:**  The booking was not created. The email field showed a validation message, and no success toast appeared.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
