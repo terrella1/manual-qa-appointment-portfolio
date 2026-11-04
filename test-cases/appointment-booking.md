@@ -79,7 +79,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Expected result:** The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
 
 ## Cases
-**Execution:** Pass  
+**Execution:** Fail  
 **Actual result:**  The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
@@ -98,7 +98,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Expected result:** The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
 
 ## Cases
-**Execution:** Pass  
+**Execution:** Fail  
 **Actual result:**  The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
