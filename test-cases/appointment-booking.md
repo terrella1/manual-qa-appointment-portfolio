@@ -60,6 +60,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The booking is accepted once. A confirmation shows a reference number, appointment type, date, time, and contact details or an appropriate privacy-safe summary.
 
+## Cases
+**Execution:** Pass  
+**Actual result:**  The booking is accepted once. A confirmation shows a reference number, appointment type, date, time, and contact details or an appropriate privacy-safe summary.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
+
 ### APPT-004 — Submit with required fields empty
 
 **Priority:** P1 · **Type:** Negative · **Status:** Not run
