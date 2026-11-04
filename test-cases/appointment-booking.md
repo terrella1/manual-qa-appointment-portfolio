@@ -30,7 +30,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Date:** November 4, 2026
 ### APPT-002 — Show availability for a future date
 
-**Priority:** P1 · **Type:** Functional · **Status:** Not run
+**Priority:** P1 · **Type:** Functional · **Status:** Run
 
 **Preconditions:** At least one future date has availability.
 
@@ -49,7 +49,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-003 — Complete a valid booking
 
-**Priority:** P1 · **Type:** Positive · **Status:** Not run
+**Priority:** P1 · **Type:** Positive · **Status:** Run
 
 **Preconditions:** A future slot is available.
 
@@ -68,7 +68,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-004 — Submit with required fields empty
 
-**Priority:** P1 · **Type:** Negative · **Status:** Not run
+**Priority:** P1 · **Type:** Negative · **Status:** Run
 
 **Preconditions:** Booking form is open.
 
@@ -86,7 +86,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-005 — Validate malformed email
 
-**Priority:** P1 · **Type:** Negative · **Status:** Not run
+**Priority:** P1 · **Type:** Negative · **Status:** Run
 
 **Preconditions:** A future slot is available.
 
@@ -105,7 +105,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-006 — Reject a date in the past
 
-**Priority:** P1 · **Type:** Boundary · **Status:** Not run
+**Priority:** P1 · **Type:** Boundary · **Status:** Run
 
 **Preconditions:** Booking form is open.
 
@@ -116,14 +116,14 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Expected result:** A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
 
 ## Cases
-**Execution:** Pass  
+**Execution:** Fail  
 **Actual result:**  A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
 ### APPT-007 — Prevent booking a slot that became unavailable
 
-**Priority:** P1 · **Type:** Negative / concurrency · **Status:** Not run
+**Priority:** P1 · **Type:** Negative / concurrency · **Status:** Run
 
 **Preconditions:** A slot can be made unavailable after it is displayed, for example by booking it in a second session.
 
