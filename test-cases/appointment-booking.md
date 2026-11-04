@@ -78,6 +78,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
 
+## Cases
+**Execution:** Pass  
+**Actual result:**  The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
+
 ### APPT-005 — Validate malformed email
 
 **Priority:** P1 · **Type:** Negative · **Status:** Not run
