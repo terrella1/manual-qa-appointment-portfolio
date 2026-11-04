@@ -1,6 +1,6 @@
 # Appointment Booking: Manual Test Cases
 
-### APPT-004 — Test approach
+### APPT-001 — Test approach
 
 These cases cover a sample appointment booking flow. They are written as a portfolio exercise and have not been executed against a live application. Adapt the assumptions and record observed results before presenting execution status.
 
@@ -43,7 +43,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ## Cases
 **Execution:** Pass  
-**Actual result:** Available time slots for that date are displayed. Unavailable times are not presented as selectable. 
+**Actual result:** Time slots that are shown are available. Unavailable time slots are not present or selectable.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
@@ -173,7 +173,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ## Cases
 **Execution:** Pass  
-**Actual result:**  All interactive controls are reachable by keyboard. Focus is visible and follows a logical order. Confirmation is available to keyboard users.
+**Actual result:**  All interactive controls are reachable by keyboard. Focus is visible and follows a logical order. Confirmation and validation is available to keyboard users.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
