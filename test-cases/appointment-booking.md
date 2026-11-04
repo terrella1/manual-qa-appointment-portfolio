@@ -115,6 +115,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
 
+## Cases
+**Execution:** Pass  
+**Actual result:**  A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
+
 ### APPT-007 — Prevent booking a slot that became unavailable
 
 **Priority:** P1 · **Type:** Negative / concurrency · **Status:** Not run
