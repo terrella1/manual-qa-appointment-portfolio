@@ -97,6 +97,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
 
+## Cases
+**Execution:** Pass  
+**Actual result:**  The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
+
 ### APPT-006 — Reject a date in the past
 
 **Priority:** P1 · **Type:** Boundary · **Status:** Not run
