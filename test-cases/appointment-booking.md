@@ -1,6 +1,6 @@
 # Appointment Booking: Manual Test Cases
 
-## Test approach
+### APPT-004 — Test approach
 
 These cases cover a sample appointment booking flow. They are written as a portfolio exercise and have not been executed against a live application. Adapt the assumptions and record observed results before presenting execution status.
 
@@ -79,7 +79,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Expected result:** The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
 
 ## Cases
-**Execution:** Fail  
+**Execution:** Pass  
 **Actual result:**  The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
@@ -98,7 +98,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Expected result:** The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
 
 ## Cases
-**Execution:** Fail  
+**Execution:** Pass
 **Actual result:**  The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
@@ -116,7 +116,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Expected result:** A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
 
 ## Cases
-**Execution:** Fail  
+**Execution:** Pass  
 **Actual result:**  A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
