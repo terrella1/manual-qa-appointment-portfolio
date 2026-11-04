@@ -134,6 +134,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The system does not create a conflicting booking. It explains that the slot is no longer available and lets the user select another time without losing appropriate form entries.
 
+## Cases
+**Execution:** Pass  
+**Actual result:**  The system does not create a conflicting booking. It explains that the slot is no longer available and lets the user select another time without losing appropriate form entries.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
+
 ### APPT-008 — Avoid duplicate booking on repeated submit
 
 **Priority:** P1 · **Type:** Reliability · **Status:** Not run
