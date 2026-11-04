@@ -18,12 +18,10 @@ These cases cover a sample appointment booking flow. They are written as a portf
 Use a future date with at least two available slots, a valid email such as `qa.sample@example.com`, and a malformed email such as `qa.sample`. Replace these with permitted test data in the target environment.
 
 ## Cases
-
-### APPT-001 — Load available appointment types
-
-**Priority:** P1 · **Type:** Functional · **Status:** Not run
-
-**Preconditions:** Booking page is reachable.
+**Execution:** Pass  
+**Actual result:** Appointment types loaded without error and were visible, understandable, and selectable.  
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
 
 **Steps:**
 1. Open the booking page.
