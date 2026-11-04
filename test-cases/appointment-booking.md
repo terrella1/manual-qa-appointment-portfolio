@@ -22,7 +22,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 2. Review the appointment type choices.
 
 **Expected result:** The page loads without an error. Appointment types are visible, understandable, and selectable.
-## Cases
+
 
 **Execution:** Pass  
 **Actual result:** Appointment types loaded without error and were visible, understandable, and selectable.  
@@ -41,7 +41,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Expected result:** Available time slots for that date are displayed. Unavailable times are not presented as selectable.
 
 
-## Cases
+
 **Execution:** Pass  
 **Actual result:** Time slots that are shown are available. Unavailable time slots are not present or selectable.
 **Environment:** Pretend sample page  
@@ -60,9 +60,9 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The booking is accepted once. A confirmation shows a reference number, appointment type, date, time, and contact details or an appropriate privacy-safe summary.
 
-## Cases
+
 **Execution:** Pass  
-**Actual result:**  The booking is accepted once. A confirmation shows a reference number, appointment type, date, time, and contact details or an appropriate privacy-safe summary.
+**Actual result:** The booking is accepted once. A confirmation is shown with reference number, date, time, appointment type, contact details and other privacy-safe summary details.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
@@ -78,7 +78,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
 
-## Cases
+
 **Execution:** Pass  
 **Actual result:**  The booking is not created. Each missing required field is identified with a clear message, and focus or an error summary helps the user find the issue.
 **Environment:** Pretend sample page  
@@ -97,7 +97,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
 
-## Cases
+
 **Execution:** Pass
 **Actual result:**  The booking is not created. The email field receives a clear validation message, and other valid entries remain populated.
 **Environment:** Pretend sample page  
@@ -115,7 +115,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
 
-## Cases
+
 **Execution:** Pass  
 **Actual result:**  A past date cannot be booked. The user receives a clear explanation and can choose a valid date.
 **Environment:** Pretend sample page  
@@ -134,7 +134,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The system does not create a conflicting booking. It explains that the slot is no longer available and lets the user select another time without losing appropriate form entries.
 
-## Cases
+
 **Execution:** Pass  
 **Actual result:**  The system does not create a conflicting booking. It explains the space is no longer available and allows the user to select another time without losing form entries.
 **Environment:** Pretend sample page  
@@ -152,7 +152,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** Only one booking is created. The interface indicates processing and prevents accidental duplicate submissions, or safely handles repeated requests.
 
-## Cases
+
 **Execution:** Pass  
 **Actual result:**  Only one booking is created. The interface shows processing and prevents duplication.
 **Environment:** Pretend sample page  
@@ -171,7 +171,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** All interactive controls are reachable and operable by keyboard. Focus is visible and follows a logical order. Validation and confirmation are available to keyboard users.
 
-## Cases
+
 **Execution:** Pass  
 **Actual result:**  All interactive controls are reachable by keyboard. Focus is visible and follows a logical order. Confirmation and validation is available to keyboard users.
 **Environment:** Pretend sample page  
@@ -190,7 +190,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 **Expected result:** The page does not show stale or misleading availability as confirmed. A plain-language error and recovery option are provided, and the user can retry.
 
-## Cases
+
 **Execution:** Pass  
 **Actual result:** The page does not show misleading availability as confirmed. An error options is provided and the user can retry.
 **Environment:** Pretend sample page  
