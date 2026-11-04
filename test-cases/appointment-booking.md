@@ -13,6 +13,8 @@ These cases cover a sample appointment booking flow. They are written as a portf
 - Validation errors explain what needs attention and preserve valid entries.
 - This sample scope does not define payment, account creation, cancellation, or rescheduling.
 
+**Test data**
+
 ### APPT-001 — Load available appointment types
 
 Use a future date with at least two available slots, a valid email such as `qa.sample@example.com`, and a malformed email such as `qa.sample`. Replace these with permitted test data in the target environment.
@@ -30,7 +32,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 **Date:** November 4, 2026
 ### APPT-002 — Show availability for a future date
 
-**Priority:** P1 · **Type:** Functional · 
+**Priority:** P1 · **Type:** Functional 
 
 **Preconditions:** At least one future date has availability.
 
@@ -49,7 +51,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-003 — Complete a valid booking
 
-**Priority:** P1 · **Type:** Positive · 
+**Priority:** P1 · **Type:** Positive 
 
 **Preconditions:** A future slot is available.
 
@@ -68,7 +70,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-004 — Submit with required fields empty
 
-**Priority:** P1 · **Type:** Negative · 
+**Priority:** P1 · **Type:** Negative 
 
 **Preconditions:** Booking form is open.
 
@@ -80,13 +82,13 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 
 **Execution:** Pass  
-**Actual result:**  The booking in not completed. Each empty field is identified with a clear message, and an error message help the user find the missing information.
+**Actual result:**  The booking is not completed. Each empty field is identified with a clear message, and an error message helps the user find the missing information.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
 ### APPT-005 — Validate malformed email
 
-**Priority:** P1 · **Type:** Negative · 
+**Priority:** P1 · **Type:** Negative 
 
 **Preconditions:** A future slot is available.
 
@@ -105,7 +107,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-006 — Reject a date in the past
 
-**Priority:** P1 · **Type:** Boundary · 
+**Priority:** P1 · **Type:** Boundary 
 
 **Preconditions:** Booking form is open.
 
@@ -142,7 +144,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-008 — Avoid duplicate booking on repeated submit
 
-**Priority:** P1 · **Type:** Reliability · 
+**Priority:** P1 · **Type:** Reliability 
 
 **Preconditions:** A future slot is available.
 
@@ -179,7 +181,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-010 — Handle temporary availability service failure
 
-**Priority:** P2 · **Type:** Error handling · 
+**Priority:** P2 · **Type:** Error handling 
 
 **Preconditions:** A test environment can simulate an availability service error or network interruption.
 
