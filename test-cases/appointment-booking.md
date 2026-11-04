@@ -163,7 +163,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-009 — Navigate and submit using keyboard only
 
-**Priority:** P2 · **Type:** Accessibility / usability · **Status:** Run
+**Priority:** P2 · **Type:** Accessibility / usability 
 
 **Preconditions:** Booking page is open.
 
