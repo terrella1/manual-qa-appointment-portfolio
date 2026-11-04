@@ -136,7 +136,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ## Cases
 **Execution:** Pass  
-**Actual result:**  The system does not create a conflicting booking. It explains that the slot is no longer available and lets the user select another time without losing appropriate form entries.
+**Actual result:**  The system does not create a conflicting booking. It explains the space is no longer available and allows the user to select another time without losing form entries.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
@@ -154,7 +154,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ## Cases
 **Execution:** Pass  
-**Actual result:**  Only one booking is created. The interface indicates processing and prevents accidental duplicate submissions, or safely handles repeated requests.
+**Actual result:**  Only one booking is created. The interface shows processing and prevents duplication.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
@@ -173,7 +173,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ## Cases
 **Execution:** Pass  
-**Actual result:**  All interactive controls are reachable and operable by keyboard. Focus is visible and follows a logical order. Validation and confirmation are available to keyboard users.
+**Actual result:**  All interactive controls are reachable by keyboard. Focus is visible and follows a logical order. Confirmation is available to keyboard users.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
@@ -192,7 +192,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ## Cases
 **Execution:** Pass  
-**Actual result:**  The page does not show stale or misleading availability as confirmed. A plain-language error and recovery option are provided, and the user can retry.
+**Actual result:** The page does not show misleading availability as confirmed. An error options is provided and the user can retry.
 **Environment:** Pretend sample page  
 **Date:** November 4, 2026
 
