@@ -142,7 +142,7 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 
 ### APPT-008 — Avoid duplicate booking on repeated submit
 
-**Priority:** P1 · **Type:** Reliability · **Status:** Not run
+**Priority:** P1 · **Type:** Reliability · **Status:** Run
 
 **Preconditions:** A future slot is available.
 
@@ -151,6 +151,12 @@ Use a future date with at least two available slots, a valid email such as `qa.s
 2. Submit once, then quickly submit again or activate the submit control repeatedly while the first request is processing.
 
 **Expected result:** Only one booking is created. The interface indicates processing and prevents accidental duplicate submissions, or safely handles repeated requests.
+
+## Cases
+**Execution:** Pass  
+**Actual result:**  Only one booking is created. The interface indicates processing and prevents accidental duplicate submissions, or safely handles repeated requests.
+**Environment:** Pretend sample page  
+**Date:** November 4, 2026
 
 ### APPT-009 — Navigate and submit using keyboard only
 
